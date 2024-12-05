@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    background-image: linear-gradient( #FF0000 0%, #6284FF 50%, #6ee96c 100%);
+    color: #fff;
+    font-weight: 600;
+}
+
+.container{
+    border: 1px solid #3d40407d;
+    border-radius: 8px;
+    padding: 25px 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 7px 8px #4c4f4d,2px 7px 8px ;
+    background-color: #FFFFFF;
+    background-image: linear-gradient( #6ee96c 0%, #6284FF 50%, #FF0000 100%);
+  
+    
+}
+.container h1{
+    font-size: 1.4rem;
+    margin: 8px;
+}
+
+.out_div{
+    position: relative;
+}
+.out_div span{ 
+    position: absolute;
+    top: 16px;
+    right: 6px;
+    color: black;
+    cursor: pointer;
+    z-index: 5;
+    /* text-overflow:ellipsis; */
+}
+.input_range {
+    accent-color:rgb(21, 24, 22) ;
+}
+.output_box{
+    
+    background-color: #fff;
+    border: solid #67a67c;
+    outline:none;
+    padding: 10px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-block: 8px;
+    text-overflow:ellipsis;
+    opacity:0.6;
+}
+#copyicon{
+    padding: 4px;
+}
+
+.pass_len{
+    display: flex;
+    margin: 8px;
+}
+
+.pass_len p , .pass_len label{
+    flex-basis: 100%;
+    font-size: 15px;
+
+}
+.pass_len input[type="checkbox"]{
+    width:20px;
+    height: 20px;
+    accent-color:rgb(21, 24, 22) ;
+}
+.div_button {
+
+    margin:auto;
+    padding: 15px;
+    
+    /* background-color: #67a67c; */
+
+
+    /* align-items: center;
+    justify-content: center; */
+}
+.gen_button{
+    height: 35px;
+    width: 180px;
+    color: #fff;
+    background-color: rgb(102, 102, 113);
+    border: none;
+    padding: 8px;
+    margin: auto;
+    border-radius:15%;
+
+    /* justify-content: center; */
+    /* align-items: center; */
+    
+}
+.gen_button:hover{
+    background-color: rgb(4, 18, 21);
+    transform: matrix3d(15,20,25);
+
+}
